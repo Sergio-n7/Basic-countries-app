@@ -12,7 +12,16 @@ export default function MainTable ({countries}) {
         <Table>
             <TableHeader />
                 <tbody>
-                    <TableRow />
+                    {countries.map((country) => (
+                            <TableRow 
+                            key={country.name}
+                            flagUrl={country.flag} 
+                            name={country.name} 
+                            population={country.population} 
+                            languages={country.languages} 
+                            region={country.region} />
+                    ))}
+                    
                 </tbody>
                             
                 </Table>
