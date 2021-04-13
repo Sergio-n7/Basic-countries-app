@@ -4,7 +4,7 @@ import Flag from '../Flag'
 
 export default function TableRow ({flagUrl, name, population, languages, region}) {
     // need to pass the data parend to child and grandchild
-    //prettier is not working 
+    
     return (
         <tr>
             <td>
