@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "react-bootstrap";
 import "./input.css";
 
 // I need to pass the props as an arguments in the function
